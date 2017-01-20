@@ -48,10 +48,7 @@ def TurnPowerOn():
     io.output(power, True)
     ledOn(green)
 
-<<<<<<< HEAD
-=======
 def blinkKey():	
     ledOn(blue)
     t.sleep(.1)
     ledOff(blue)
->>>>>>> upstream/devel
